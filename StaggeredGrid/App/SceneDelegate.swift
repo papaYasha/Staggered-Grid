@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  StaggeredGrid
-//
-//  Created by Macbook on 24.08.22.
-//
-
 import UIKit
 import SwiftUI
 
