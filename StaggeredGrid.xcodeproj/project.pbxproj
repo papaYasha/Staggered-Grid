@@ -37,6 +37,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841C510928C2388400D8AA79 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA0907A428B6B12E00207616 /* AppDelegate.swift */,
+				FA0907A628B6B12E00207616 /* SceneDelegate.swift */,
+				FA0907A828B6B12E00207616 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		841C510A28C2388D00D8AA79 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		841C510B28C2389400D8AA79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		841C510C28C238A400D8AA79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		841C510D28C238AE00D8AA79 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FA0907AA28B6B13300207616 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		841C510E28C238B600D8AA79 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FA0907AF28B6B13300207616 /* LaunchScreen.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		FA09079828B6B12E00207616 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +103,14 @@
 		FA0907A328B6B12E00207616 /* StaggeredGrid */ = {
 			isa = PBXGroup;
 			children = (
-				FA0907A428B6B12E00207616 /* AppDelegate.swift */,
-				FA0907A628B6B12E00207616 /* SceneDelegate.swift */,
-				FA0907A828B6B12E00207616 /* ContentView.swift */,
-				FA0907AA28B6B13300207616 /* Assets.xcassets */,
-				FA0907AF28B6B13300207616 /* LaunchScreen.storyboard */,
-				FA0907B228B6B13300207616 /* Info.plist */,
+				841C510928C2388400D8AA79 /* App */,
+				841C510E28C238B600D8AA79 /* Scenes */,
+				841C510C28C238A400D8AA79 /* Model */,
+				841C510B28C2389400D8AA79 /* View */,
+				841C510A28C2388D00D8AA79 /* ViewModel */,
 				FA0907AC28B6B13300207616 /* Preview Content */,
+				841C510D28C238AE00D8AA79 /* Assets */,
+				FA0907B228B6B13300207616 /* Info.plist */,
 			);
 			path = StaggeredGrid;
 			sourceTree = "<group>";
