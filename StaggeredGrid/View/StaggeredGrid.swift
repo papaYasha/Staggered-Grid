@@ -46,7 +46,7 @@ struct StaggeredGrid<Content: View, T: Identifiable>: View where T: Hashable{
     }
 
     var body: some View {
-
+        ScrollView(.vertical, showsIndicators: showIndicators) {
         HStack(alignment: .top) {
                 ForEach(setUpList(), id: \.self) { columnsData in
                     LazyVStack(spacing: 15) {
@@ -57,6 +57,7 @@ struct StaggeredGrid<Content: View, T: Identifiable>: View where T: Hashable{
                 }
             }
             .padding(.vertical)
+        }
     }
 }
 
