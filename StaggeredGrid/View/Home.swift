@@ -10,6 +10,7 @@ import SwiftUI
 struct Home: View {
 
     @State var photos: [Photos] = []
+
     @State var columns: Int = 2
 
     @Namespace var animation
@@ -34,7 +35,7 @@ struct Home: View {
                 }
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
-                        columns -= max(columns - 1, 1)
+                        columns = max(columns - 1, 1)
                     } label: {
                         Image(systemName: "minus")
                     }
