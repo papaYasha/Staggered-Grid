@@ -1,5 +1,4 @@
 # Staggered-Grid
-SwiftUI | Custom Staggered Grid
 
 ## Stack
 * Xcode 13.3.1
